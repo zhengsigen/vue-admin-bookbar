@@ -26,7 +26,7 @@
   </a>
 </p>
 在此声明：
-感谢vue-element-admin提供的开源代码
+感谢vue-element-admin提供的开源代码<br />
 English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Spanish](./README.es.md)
 
 ＃＃ 介绍
