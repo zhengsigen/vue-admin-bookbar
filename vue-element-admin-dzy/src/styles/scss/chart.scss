@@ -1,0 +1,70 @@
+.dashboard-editor-container {
+    padding: 32px;
+    background-color: #f0f2f5;
+    position: relative;
+    .content {
+      background-color: #fff;
+      width: 100%;
+      .content p {
+        margin-top: 1rem;
+        font-size: 0.4rem;
+        color: #666666;
+      }
+      .seven_echarts {
+        display: flex;
+        height: 11rem;
+        width: 95%;
+      }
+    }
+    .panel-group {
+      margin-left: -20px;
+      margin-right: -20px;
+      display: flex;
+      .card-panel-col {
+        flex: 1 1 auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 108px;
+        cursor: pointer;
+        font-size: 12px;
+        overflow: hidden;
+        color: #666;
+        background: #fff;
+        -webkit-box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05);
+        box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05);
+        border-color: rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: space-between;
+        .card-panel-icon-wrapper {
+          margin: 14px 0 0 14px;
+          padding: 16px;
+          -webkit-transition: all 0.38s ease-out;
+          transition: all 0.38s ease-out;
+          border-radius: 6px;
+          .svg-icon {
+            font-size: 48px;
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+          }
+        }
+        .card-panel-description {
+          white-space: nowrap;
+          font-weight: bold;
+          margin: 26px;
+          margin-left: 0px;
+          .card-panel-text {
+            line-height: 18px;
+            color: rgba(0, 0, 0, 0.45);
+            font-size: 16px;
+            margin-bottom: 12px;
+          }
+          .card-panel-num {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
